@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Description: Use mypy to validate the following
-             code & apply any necessary changes.
+code & apply any necessary changes.
 Parameters: lst: Tuple, factor: int = 2
 """
 
