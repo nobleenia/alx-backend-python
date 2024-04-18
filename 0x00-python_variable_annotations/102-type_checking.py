@@ -19,8 +19,8 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     should be repeated.
 
     Returns:
-    List[int]: A list of integers where each element in
-    the original tuple is repeated 'factor' times.
+    List[int]: A list of integers where each element
+    in the original tuple is repeated 'factor'
     """
     zoomed_in: List[int] = [
         item for item in lst
