@@ -5,6 +5,7 @@ Duck typing - first element of a sequence
 
 from typing import Any, Sequence, Union, Optional
 
+
 def safe_first_element(lst: Sequence[Any]) -> Optional[Any]:
     """
     Returns the first element of a sequence or None if the sequence is empty.

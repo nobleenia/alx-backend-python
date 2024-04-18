@@ -6,6 +6,7 @@ function will multiply any float by a specified multiplier.
 
 from typing import Callable
 
+
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     Generates a function that multiplies a float by a given multiplier.

@@ -6,6 +6,7 @@ and returns a tuple. The tuple contains the string and the square of the number 
 
 from typing import Tuple, Union
 
+
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Accepts a string and a number, and returns a tuple. The tuple's first element is the

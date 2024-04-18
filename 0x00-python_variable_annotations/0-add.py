@@ -4,6 +4,7 @@ This module defines a simple mathematical operation.
 It includes a function to add two float numbers.
 """
 
+
 def add(a: float, b: float) -> float:
     """
     Adds two floating-point numbers and returns the result.

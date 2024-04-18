@@ -7,7 +7,8 @@ Parameters: lst: Tuple, factor: int = 2
 
 from typing import Tuple, List
 
-def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
+
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Returns a new list where each element in the input tuple
     is repeated 'factor' times.

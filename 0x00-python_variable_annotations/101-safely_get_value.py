@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-    Description: Using the parameters and the return values, add type
-    annotations to the function
-    Parameters: T - a TypeVar with value '~T'
+Description: Using the parameters and the return values, add type
+             annotations to the function
+Parameters: T - a TypeVar with value '~T'
 """
 
 from typing import TypeVar, Mapping, Any, Union
@@ -10,8 +10,9 @@ from typing import TypeVar, Mapping, Any, Union
 # Define a TypeVar T, which can be any type or None
 T = TypeVar('T')
 
-def safely_get_value(dct: Mapping, key: Any, default:
-                     Union[T, None] = None) -> Union[T, Any]:
+
+def safely_get_value(dct: Mapping, key: Any,
+                     default: Union[T, None] = None) -> Union[T, Any]:
     """
     Retrieves a value from a dictionary based on the provided key.
     If the key does not exist, returns a default value.
