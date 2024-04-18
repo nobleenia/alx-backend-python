@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Description: Use mypy to validate the following piece
-             of code & apply any necessary changes.
+Description: Use mypy to validate the following
+             code & apply any necessary changes.
 Parameters: lst: Tuple, factor: int = 2
 """
 
@@ -19,7 +19,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     should be repeated.
 
     Returns:
-    List[int]: A list of integers where each element
+    List[int]: A list of integers each element
     in the original tuple is repeated 'factor'
     """
     zoomed_in: List[int] = [
