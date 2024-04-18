@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+"""
+Description: Add annotations to the below function’s parameters and
+                 return values with the appropriate types
+Parameters: lst: Iterable[Sequence]
+"""
 from typing import Iterable, Sequence, List, Tuple
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
@@ -9,6 +15,7 @@ def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     lst (Iterable[Sequence]): An iterable containing sequences.
 
     Returns:
-    List[Tuple[Sequence, int]]: A list of tuples, each tuple containing a sequence and its length.
+    List[Tuple[Sequence, int]]: A list of tuples,
+    each tuple containing a sequence and its length.
     """
     return [(i, len(i)) for i in lst]
