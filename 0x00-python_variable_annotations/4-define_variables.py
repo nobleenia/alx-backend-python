@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module defines and annotates several basic variables with different data types.
+This module defines and annotates several basic
+variables with different data types.
 """
 
 # Integer variable

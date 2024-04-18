@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module provides a function to compute the floor of a floating-point number.
+This module provides a function to compute the floor
+of a floating-point number.
 """
 
 import math
@@ -14,6 +15,7 @@ def floor(n: float) -> int:
     n (float): The number whose floor is to be calculated.
 
     Returns:
-    int: The floor of the number, which is the largest integer less than or equal to n.
+    int: The floor of the number,
+    which is the largest integer less than or equal to n.
     """
     return math.floor(n)
