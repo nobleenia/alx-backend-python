@@ -15,8 +15,8 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     
     Parameters:
     lst (Tuple[int, ...]): A tuple of integers.
-    factor (int): The number of times each element
-    should be repeated.
+    factor (int): The number of times each
+    element should be repeated.
 
     Returns:
     List[int]: A list of integers each element
