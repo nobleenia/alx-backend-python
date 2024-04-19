@@ -12,7 +12,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Returns a new list where each element in the
     input tuple is repeated 'factor' times.
-    
+
     Parameters:
     lst (Tuple[int, ...]): A tuple of integers.
     factor (int): The number of times each
