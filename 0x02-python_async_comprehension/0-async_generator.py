@@ -4,9 +4,9 @@ This module defines an asynchronous generator
 that yields random numbers between 0 and 10
 following a delay of 1 second for each number generated.
 """
-
 import asyncio
 import random
+
 
 async def async_generator():
     """
