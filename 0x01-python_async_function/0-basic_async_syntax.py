@@ -7,6 +7,7 @@ waits for a random amount of time.
 import asyncio
 import random
 
+
 async def wait_random(max_delay: int = 10) -> float:
     """
     Asynchronously waits for a random time
@@ -21,6 +22,7 @@ async def wait_random(max_delay: int = 10) -> float:
     delay: float = random.uniform(0, max_delay)
     await asyncio.sleep(delay)
     return delay
+
 
 if __name__ == "__main__":
     # You can test this function directly by running this module,
